@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-    return User::all();
-});
+Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
