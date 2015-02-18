@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', function()
+{
+	$users = DB::table('users')->get();
 
+    return $users;
+});
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
