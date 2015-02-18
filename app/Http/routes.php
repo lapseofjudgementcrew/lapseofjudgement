@@ -11,11 +11,7 @@
 |
 */
 use App\User;
-Route::get('/', function()
-{
-	
-    return User::all();
-});
+Route::get('/', 'PagesController@index');
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
