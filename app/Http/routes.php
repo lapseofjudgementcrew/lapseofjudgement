@@ -10,12 +10,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+use App\User;
 Route::get('/', function()
 {
-	$users = DB::table('users')->get();
-
-    return $users;
+	
+    return User::all();
 });
 Route::get('home', 'HomeController@index');
 
