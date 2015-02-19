@@ -17,10 +17,10 @@ class CreateUsersTable extends Migration {
 			$table->increments('id');
 			$table->string('yppname')->unique();			
 			$table->string('password', 60)->nullable();
-			$table->string('code')->unique();
-			$table->integer('activate');
-			$table->rememberToken();
-			$table->timestamps();
+			$table->string('code')->unique()->nullable();
+			$table->integer('activate')->nullable();
+			$table->rememberToken()->nullable();
+			$table->timestamps()->nullable();
 		});
 	}
 
