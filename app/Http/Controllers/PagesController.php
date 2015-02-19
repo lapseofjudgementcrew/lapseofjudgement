@@ -10,7 +10,7 @@ class PagesController extends Controller {
 	{
 		$this->middleware('auth');
 	}
-	
+
 	function home(){
 		return view('home');
 

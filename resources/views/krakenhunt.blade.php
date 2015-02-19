@@ -2,6 +2,15 @@
 
 
 @section('content')
+<div class="container">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+			<div class="panel panel-default">
+				<div class="panel-heading">KH tutorial</div>
+
+				<div class="panel-body">
+			
+
 	<h1>KH tutorial</h1>
 	<h2>Rowboat</h2>
 	<h3>Rowboat Stats</h3>
@@ -35,5 +44,10 @@
 	<em>Large Tentacle hit:</em> 100% damage or 0 bumps</br>
 	<em>Moves:</em> 3</br>
 	<p>Bombers bomb the kraken head to eliminate all tentacles on map. Can bomb every two turns. Bomb. One turn passes. Can bomb again.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 @stop
 @endsection
