@@ -11,7 +11,17 @@
 |
 */
 use App\User;
-Route::get('/', 'PagesController@index');
+Route::get('/', [
+	'as' => 'home',
+	'uses' => 'PagesController@home'
+
+]);
+
+Route::get('krakenhunt', [
+	'as' => 'krakenhunt',
+	'uses' => 'PagesController@krakenhunt'
+
+]);
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
