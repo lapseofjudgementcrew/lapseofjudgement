@@ -16,7 +16,7 @@ class CreateUsersTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('yppname')->unique();			
-			$table->string('password', 60);
+			$table->string('password', 60)->nullable();
 			$table->string('code')->unique();
 			$table->integer('activate');
 			$table->rememberToken();
