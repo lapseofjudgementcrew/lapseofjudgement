@@ -5,14 +5,8 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
-				<div class="panel-heading">Reset Password</div>
+				<div class="panel-heading">Activate</div>
 				<div class="panel-body">
-					@if (session('status'))
-						<div class="alert alert-success">
-							{{ session('status') }}
-						</div>
-					@endif
-
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
 							<strong>Whoops!</strong> There were some problems with your input.<br><br>
@@ -24,29 +18,27 @@
 						</div>
 					@endif
 
-<<<<<<< HEAD
-					
-					See Momentary in game for an activation code.
-=======
-					<form class="form-horizontal" role="form" method="POST" action="/password/email">
+					<form class="form-horizontal" role="form" method="POST" action="/auth/activate">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">
-							<label class="col-md-4 control-label">E-Mail Address</label>
+							<label class="col-md-4 control-label">Activation Code</label>
 							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
+								<input type="text" class="form-control" name="code" value="{{ old('code') }}">
 							</div>
 						</div>
+
+						
+						
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">
-									Send Password Reset Link
+									Submit Code
 								</button>
 							</div>
 						</div>
 					</form>
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
 				</div>
 			</div>
 		</div>

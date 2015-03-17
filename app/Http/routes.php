@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+<<<<<<< HEAD
 
 Route::get('/', [
 	'uses' => 'WelcomeController@index', 
@@ -54,3 +55,23 @@ Route::post('whirlpool/{rowid}/{colid}/{orientation}',[
   'uses'=>'WhirlpoolController@submit',
   'as' => 'whirlpool.submit'
 ]);
+=======
+use App\User;
+Route::get('/', [
+	'as' => 'home',
+	'uses' => 'PagesController@home'
+
+]);
+
+Route::get('krakenhunt', [
+	'as' => 'krakenhunt',
+	'uses' => 'PagesController@krakenhunt'
+
+]);
+Route::get('home', 'HomeController@index');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+>>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7

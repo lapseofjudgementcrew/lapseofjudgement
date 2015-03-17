@@ -144,7 +144,10 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+<<<<<<< HEAD
 		'App\Extension\Validation\ValidationServiceProvider',
+=======
+>>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
 
 	],
 

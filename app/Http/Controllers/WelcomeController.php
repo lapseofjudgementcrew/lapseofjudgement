@@ -20,7 +20,11 @@ class WelcomeController extends Controller {
 	 */
 	public function __construct()
 	{
+<<<<<<< HEAD
 		//$this->middleware('guest');
+=======
+		$this->middleware('guest');
+>>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
 	}
 
 	/**
