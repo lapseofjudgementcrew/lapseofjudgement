@@ -410,7 +410,6 @@
         },
         {
             "name": "laravel/framework",
-<<<<<<< HEAD
             "version": "v5.0.13",
             "source": {
                 "type": "git",
@@ -421,18 +420,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/c263240daa383e6b9bd979600dc61dcb2c436d53",
                 "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53",
-=======
-            "version": "v5.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "b1aea041cbc0cd54563e2d3709a54a71eed57653"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b1aea041cbc0cd54563e2d3709a54a71eed57653",
-                "reference": "b1aea041cbc0cd54563e2d3709a54a71eed57653",
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
                 "shasum": ""
             },
             "require": {
@@ -449,11 +436,7 @@
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.0",
                 "php": ">=5.4.0",
-<<<<<<< HEAD
                 "psy/psysh": "0.4.*",
-=======
-                "psy/psysh": "0.3.*",
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
                 "swiftmailer/swiftmailer": "~5.1",
                 "symfony/console": "2.6.*",
                 "symfony/debug": "2.6.*",
@@ -548,11 +531,7 @@
                 "framework",
                 "laravel"
             ],
-<<<<<<< HEAD
             "time": "2015-02-27 00:32:38"
-=======
-            "time": "2015-02-13 19:10:59"
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
         },
         {
             "name": "league/flysystem",
@@ -884,7 +863,6 @@
         },
         {
             "name": "psy/psysh",
-<<<<<<< HEAD
             "version": "v0.4.1",
             "source": {
                 "type": "git",
@@ -895,18 +873,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
                 "reference": "3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
-=======
-            "version": "v0.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2ce0e8f3020fd292c2ad2a496c5d83939823f642",
-                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642",
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
                 "shasum": ""
             },
             "require": {
@@ -924,10 +890,7 @@
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
-<<<<<<< HEAD
                 "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-=======
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
                 "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
             },
@@ -967,11 +930,7 @@
                 "interactive",
                 "shell"
             ],
-<<<<<<< HEAD
             "time": "2015-02-25 20:35:54"
-=======
-            "time": "2015-02-12 19:35:52"
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
         },
         {
             "name": "swiftmailer/swiftmailer",
