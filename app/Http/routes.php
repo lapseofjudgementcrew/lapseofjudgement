@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', [
-	'uses' => 'WelcomeController@index', 
-	'as' => 'welcome'
-]);
 
 Route::get('home', [
 	'uses' => 'HomeController@index', 
@@ -54,8 +50,7 @@ Route::post('whirlpool/{rowid}/{colid}/{orientation}',[
   'uses'=>'WhirlpoolController@submit',
   'as' => 'whirlpool.submit'
 ]);
-=======
-use App\User;
+
 Route::get('/', [
 	'as' => 'home',
 	'uses' => 'PagesController@home'
