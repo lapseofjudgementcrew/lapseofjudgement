@@ -62,8 +62,6 @@ Route::get('krakenhunt', [
 	'uses' => 'PagesController@krakenhunt'
 
 ]);
-Route::get('home', 'HomeController@index');
-
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
