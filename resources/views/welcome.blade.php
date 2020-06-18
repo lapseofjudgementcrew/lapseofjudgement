@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('app')
 @section('panel-heading')
 Welcome
@@ -11,7 +10,6 @@ Welcome
 	</div>
 </div>
 @endsection
-=======
 <html>
 	<head>
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
@@ -58,4 +56,3 @@ Welcome
 		</div>
 	</body>
 </html>
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
