@@ -10,7 +10,6 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-<<<<<<< HEAD
 
 Route::get('/', [
 	'uses' => 'WelcomeController@index', 
@@ -74,4 +73,3 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
