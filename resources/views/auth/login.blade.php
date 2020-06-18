@@ -22,11 +22,7 @@
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">
-<<<<<<< HEAD
-							<label class="col-md-4 control-label">Puzzle Pirates Name</label>
-=======
 							<label class="col-md-4 control-label">Puzzle Pirate Name</label>
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
 							<div class="col-md-6">
 								<input type="text" class="form-control" name="yppname" value="{{ old('yppname') }}">
 							</div>
