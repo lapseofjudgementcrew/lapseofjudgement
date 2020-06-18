@@ -1,11 +1,9 @@
 @extends('app')
-<<<<<<< HEAD
 @section('panel-heading')
 Home
 @endsection
 @section('content')
 You are logged in!
-=======
 
 @section('content')
 <div class="container">
@@ -21,5 +19,4 @@ You are logged in!
 		</div>
 	</div>
 </div>
->>>>>>> 65fe0eacb71f147afea95697745eab2a33d8a9d7
 @endsection
